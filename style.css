@@ -1,10 +1,26 @@
 body {
 	background-color: hsl(233, 47%, 7%);
 	font-size: 15px;
-	font-family: "Inter";
-}
+	}
 
 .card {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 1440px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
+	background-color: hsl(244, 38%, 16%);
+
+
+}
+.card-text {
+padding: 2em;	
+margin: 20px;
+width: 400px;
+font-family: 'Inter', sans-serif;
 
 }
 
@@ -13,18 +29,34 @@ h1 {
 	height: 150px;
 	border: 50px;
 	padding-top: 20px;
-	margin-left: 40px;
+	margin-left: 10px;
 	color: hsl(0, 0%, 100%);
-	font-family: 'Inter';
+	font-weight: 700;
+}
+span {
+	color: hsl(277, 64%, 61%);
 }
 
 p {
+	font-weight: 400;
 	color: hsl(0, 0%, 100%);
 }
 
-#people-office {
+.stats{
+	color: hsl(0, 0%, 100%);
+	font-family: 'Lexend Deca', sans-serif;
+	font-weight: 400;
+	}
+
+.imagem {
+	display: flex;
+justify-content: right;
+	width: 50%;
+	
 
 }
 footer{
-	color: hsl(0, 0%, 100%);
+text-align: center;
+color: hsl(0, 0%, 100%);
+padding: 40px 0;
 }
